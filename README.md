@@ -42,9 +42,9 @@
 
 #### 策略及回测结果
 
-![策略回测结果]('results/result table.jpg')
+![策略回测结果](https://user-images.githubusercontent.com/66553939/163675926-e4055939-8974-463b-99b0-1794384bf9d5.jpg)
 
-![策略净值图]('results/image.png')
+![策略净值图](https://user-images.githubusercontent.com/66553939/163675930-45f71c43-7c50-4c42-b1da-8a9bf795ff8b.jpg)
 
 
   1.本项目量化交易策略采用每隔一个月进行换仓（即调仓周期为28个交易日），每次换仓采取等额持股的方式买入BiLSTM预测出的预期收益率最高的25支股票，卖出原本所持有的股票。本文的回测时间和规则如下：
